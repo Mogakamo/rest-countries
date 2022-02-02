@@ -14,6 +14,9 @@ export default function Home() {
         <div className="">
           <Navbar />
         </div>
+        <div>
+          <Search
+        </div>
       </main>
     </div>
   )
