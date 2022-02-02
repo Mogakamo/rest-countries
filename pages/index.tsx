@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
-import DarkmodeSwitch from '../components/DarkmodeSwitch'
+import SearchBar from '../components/Search'
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
         <div className="">
           <Navbar />
         </div>
-        <div>
-          <Search
+        <div className='flex py-8 px-24'>
+          <SearchBar />
         </div>
       </main>
     </div>
